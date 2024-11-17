@@ -12,6 +12,6 @@
   测试代码在 predict.ipynb 中  
   只需要更改  
   ```checkpoint_path = 'model/xxx.pth'```  
-``` img_path = 'dataset/image/cityscapes_xxx/xxx.png'```  
+```img_path = 'dataset/image/cityscapes_xxx/xxx.png'```  
 ```ground_truth_path = /dataset/label/cityscapes_19classes_xxx/xxx.png‘```  
   ! 注意test数据集的 ground_truth 是完全空白的，但是路径也需要写入代码
