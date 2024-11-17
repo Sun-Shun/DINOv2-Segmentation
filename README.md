@@ -1,7 +1,7 @@
 # DINOv2-Segmentation
   环境配置根据DINOv2 - https://github.com/facebookresearch/dinov2
 # 下载数据集
-  解压 dataset 到此文件夹就OK
+  解压 dataset 到此文件夹就OK  
   ```链接: https://pan.baidu.com/s/1m4e4T_hFfY3Beu7MN2ha8A?pwd=m5dp 提取码: m5dp```
 # 下载模型参数
   此文件中创建 model文件夹放入，25epoch是精度最高的模型，100epoch是最后训练loss最低的模型  
