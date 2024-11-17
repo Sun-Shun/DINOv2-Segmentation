@@ -5,13 +5,13 @@
 # 训练代码
   完整训练在 Train.ipynb 中，可以直接打开观看部分可视化结果
 # 训练Loss可视化
-  需要安装 TensorBoard 
-  ```pip install rensorboard ```
-  ``` tensorboard --logdir=runs/segmentation ```
+  需要安装 TensorBoard  
+  ```pip install rensorboard ```  
+  ``` tensorboard --logdir=runs/segmentation ```  
 # 测试代码
-  测试代码在 predict.ipynb 中
-  只需要更改
-  ```checkpoint_path = 'model/xxx.pth'```
-``` img_path = 'dataset/image/cityscapes_xxx/xxx.png'```
-```ground_truth_path = /dataset/label/cityscapes_19classes_xxx/xxx.png‘```
+  测试代码在 predict.ipynb 中  
+  只需要更改  
+  ```checkpoint_path = 'model/xxx.pth'```  
+``` img_path = 'dataset/image/cityscapes_xxx/xxx.png'```  
+```ground_truth_path = /dataset/label/cityscapes_19classes_xxx/xxx.png‘```  
   ! 注意test数据集的 ground_truth 是完全空白的，但是路径也需要写入代码
